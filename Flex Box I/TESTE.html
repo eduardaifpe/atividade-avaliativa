@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox - 01</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vh;
+            margin: 0 auto;
+        }
+        div{
+            height: 35%;
+            width: 35%;
+            background-color:yellow ;
+        }
+        main{
+            height: 70%;
+            width: auto;
+            display: flex;
+
+        }
+        .article{
+            background-color :rgb(90, 40, 94) ;
+            height: 100%;
+            width: 60%;
+        }
+        .header{
+            background-color:rgb(79, 40, 32) ;
+            height: 15%;
+        }
+        .aside{
+            background-color:rgb(45, 80, 75) ;
+            height:100% ;
+            width: 40%;
+            display: flex;
+            align-items: ;
+            justify-content: space-evenly;
+            flex-flow: column wrap;
+          
+        }
+        .footer{
+            background: rgb(54, 058, 0) ;
+            height: 15%;
+        }
+    </style>
+    
+    <header class="header"><h1>Header</h1></header>
+    <main >
+        <article class="article">article</article>
+        <aside class="aside">
+            Aside
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </aside>
+    </main>
+    <footer class="footer">footer</footer>
+</head>
+<body>
+    
+</body>
+</html>
